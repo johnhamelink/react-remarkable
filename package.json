@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "babel src -d dist --modules common",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "keywords": [
     "react",
